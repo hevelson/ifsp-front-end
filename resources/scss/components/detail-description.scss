@@ -1,0 +1,25 @@
+.detail-description {
+    > .description-image-box {
+        display: flex;
+        align-items: center;
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        > .text {
+            margin: 0 auto;
+            width: rem(650);
+            .title {
+                font-size: rem(40);
+            }
+            .description {
+                color: $color-spanish-gray;
+                font-size: rem(24);
+                line-height: rem(38);
+                margin-top: rem(10);
+            }
+        }
+        > .description-image {
+            width: 50%;
+        }
+    }
+}

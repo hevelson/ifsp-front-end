@@ -1,2 +1,1 @@
-Arquivo inicial para repositório de tarefa Git IFSP
-Alterações By: Leandro Machado
+Tarefa de desenvolvimento Front-End IFSP

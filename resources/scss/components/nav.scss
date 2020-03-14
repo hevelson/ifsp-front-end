@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    padding: rem(10) rem(238);
+    background-color: $color-ghost-white;
+    justify-content: space-between;
+    > .sign-in-link {
+        background-color: $color-azure;
+        color: $color-white;
+        font-size: rem(20);
+        padding: rem(10);
+        border-radius: rem(5);
+    }
+}

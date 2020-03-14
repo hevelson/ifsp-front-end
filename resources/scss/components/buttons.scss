@@ -1,0 +1,5 @@
+.btn-blue {
+    @extend %btn-base;
+    background-color: $color-azure;
+    color: $color-white;
+}

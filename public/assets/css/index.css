@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);.btn-blue {
+  font-size: 1.25rem;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+*,
+*::before,
+*::after {
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #212529;
+  font-family: Lato, "Helvetica", "Arial", sans-serif;
+  font-size: 4.44444vw;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  padding: 0px;
+}
+@media (min-width: 576px) {
+  html,
+body {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 768px) {
+  html,
+body {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 992px) {
+  html,
+body {
+    font-size: 0.8333333333vw;
+  }
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  font-family: Lato, "Helvetica", "Arial", sans-serif;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-blue {
+  background-color: #017bff;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  padding: 0.625rem 14.875rem;
+  background-color: #f8f9fa;
+  justify-content: space-between;
+}
+header > .sign-in-link {
+  background-color: #017bff;
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bg-masthead.jpg");
+  background-size: cover;
+}
+.hero-banner > .title {
+  font-size: 3.375rem;
+  text-align: center;
+  color: #ffffff;
+  width: 62.5rem;
+  margin-bottom: 5rem;
+}
+.hero-banner > .form-sign {
+  display: flex;
+  width: 50rem;
+  justify-content: space-between;
+}
+.hero-banner > .form-sign .form-input {
+  display: block;
+  border: none;
+  width: 37.5rem;
+  height: 3.75rem;
+  border-radius: 0.625rem;
+  font-size: 1.625rem;
+  padding: 0.625rem 1.5625rem;
+}
+.hero-banner > .form-sign .btn-blue {
+  font-size: 1.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.short-description {
+  display: flex;
+  width: 100%;
+  height: 27.5rem;
+  background-color: #f8f9fa;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.875rem 14.875rem;
+}
+.short-description > .description-box {
+  width: 30%;
+  text-align: center;
+  padding: 0 1.875rem;
+}
+.short-description > .description-box .title {
+  font-size: 2.25rem;
+}
+.short-description > .description-box .description {
+  color: #909294;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-top: 0.625rem;
+}
+
+.detail-description > .description-image-box {
+  display: flex;
+  align-items: center;
+}
+.detail-description > .description-image-box:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.detail-description > .description-image-box > .text {
+  margin: 0 auto;
+  width: 40.625rem;
+}
+.detail-description > .description-image-box > .text .title {
+  font-size: 2.5rem;
+}
+.detail-description > .description-image-box > .text .description {
+  color: #909294;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  margin-top: 0.625rem;
+}
+.detail-description > .description-image-box > .description-image {
+  width: 50%;
+}
+
+.testimonials {
+  background-color: #f8f9fa;
+  padding: 7.5rem 14.875rem;
+}
+.testimonials .title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+.testimonials .wrapper-testimonials {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.testimonials .wrapper-testimonials > .testimonial-box {
+  position: relative;
+  width: 25rem;
+}
+.testimonials .wrapper-testimonials > .testimonial-box:first-child::before {
+  content: "new";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0.625rem;
+  right: 3.125rem;
+  width: 5rem;
+  height: 3.375rem;
+  text-transform: uppercase;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 1.6875rem;
+}
+.testimonials .wrapper-testimonials > .testimonial-box .box-image {
+  width: 15.625rem;
+  height: 15.625rem;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: #909294 1px 4px 5px 0px;
+  margin: 0 auto 1.25rem;
+}
+.testimonials .wrapper-testimonials > .testimonial-box .name {
+  font-size: 1.625rem;
+  text-align: center;
+}
+.testimonials .wrapper-testimonials > .testimonial-box .testimonial-text {
+  color: #909294;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map*/

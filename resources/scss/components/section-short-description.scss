@@ -1,0 +1,23 @@
+.short-description {
+    display: flex;
+    width: 100%;
+    height: rem(440);
+    background-color: $color-ghost-white;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(30) rem(238);
+    > .description-box {
+        width: 30%;
+        text-align: center;
+        padding: 0 rem(30);
+        .title {
+            font-size: rem(36);
+        }
+        .description {
+            color: $color-spanish-gray;
+            font-size: rem(24);
+            line-height: rem(36);
+            margin-top: rem(10);
+        }
+    }
+}
