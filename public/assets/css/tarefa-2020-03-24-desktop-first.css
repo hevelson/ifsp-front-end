@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.main-posts {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.main-posts .section-posts {
+  width: 70%;
+}
+.main-posts .section-posts .posts-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-posts .section-posts .posts-list .post-box {
+  width: calc(25% - 10px);
+  background-color: #86d2e1;
+  padding: 10px;
+  margin-right: 10px;
+}
+.main-posts .section-posts .posts-list .post-box img {
+  width: 100%;
+}
+.main-posts .section-video {
+  width: 30%;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 1199px) {
+  .main-posts .section-posts .posts-list {
+    display: flex;
+  }
+  .main-posts .section-posts .posts-list .post-box {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 767px) {
+  .main-posts {
+    flex-direction: column;
+  }
+  .main-posts .section-posts {
+    width: 100%;
+  }
+  .main-posts .section-posts .posts-list .post-box {
+    width: 100%;
+    margin-right: 0;
+  }
+  .main-posts .section-video {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=tarefa-2020-03-24-desktop-first.css.map*/

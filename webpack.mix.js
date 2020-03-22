@@ -15,7 +15,7 @@ mix.options({
    processCssUrls: false,
 });
 
-mix.sass('resources/scss/index.scss', 'public/assets/css').sourceMaps()
+mix.sass('resources/scss/tarefa-2020-03-24-desktop-first.scss', 'public/assets/css').sourceMaps()
    .webpackConfig({
       devtool: 'source-map'
    });
