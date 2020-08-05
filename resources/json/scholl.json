@@ -1,0 +1,45 @@
+{
+  "_id": "matricula01",
+  "nome": "Antonio Jesus",
+  "sexo": "m",
+  "email": "ajesus@ig.com",
+  "serie": "6",
+  "voluntario": true,
+  "disciplinas": [
+    {
+      "_id": "matematica",
+      "name": "Matemática",
+      "notas": [
+        9.7,
+        8.7,
+        9.8
+      ]
+    },
+    {
+      "_id": "portugues",
+      "name": "Português",
+      "notas": [
+        9.6,
+        9.5,
+        9.1
+      ]
+    },
+    {
+      "_id": "geografia",
+      "name": "Geografia",
+      "notas": [
+        8.9,
+        7.8,
+        8.5
+      ]
+    }
+  ],
+  "eletivas": [
+    "Dança",
+    "Ed. Física"
+  ],
+  "telefones": [
+    "55437898",
+    "99873678"
+  ]
+}
