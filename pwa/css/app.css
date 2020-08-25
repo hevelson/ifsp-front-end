@@ -1,0 +1,11 @@
+#app {
+  padding-top: 2em;
+}
+
+#barcode-scanner video {
+  max-width: 100%;
+}
+
+#barcode-scanner canvas {
+  display: none;
+}
