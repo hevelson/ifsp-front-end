@@ -21,82 +21,126 @@
 
 <body>
 
-	<div class="navbar-fixed ">
-		<nav>
-			<div class="nav-wrapper green">
-				<a href="#" class="brand-logo truncate">Itape Shopping</a>
-			</div>
-		</nav>
-	</div>
-
-	<div class="container" id="app">
-		<div class="row">
-			<h5 class="col s12">Pagar Estacionamento</h5>
-			<form class="col s12">
-				<div class="row">
-					<div class="input-field col s9">
-						<input placeholder="Utilize a câmera para obter o código" id="codigo" type="text"
-							class="validate">
-						<label for="codigo">Código</label>
+	<main>
+		<header>
+			<div class="navbar-fixed ">
+				<nav>
+					<div class="nav-wrapper orange">
+						<a href="#" class="brand-logo truncate">Magic Life Counter</a>
 					</div>
-					<div class="input-field col s3">
-						<a class="btn-floating btn-large waves-effect waves-light green  modal-trigger"
-							href="#modal1"><i class="material-icons">add_a_photo
-							</i></a>
-
+				</nav>
+			</div>
+		</header>
+		<div class="row">
+			<form class="col s6 form-player-one">
+				<h5 class="col s12">Player 1</h5>
+				<div class="row">
+					<div class="input-field col s12">
+						<input 
+							id="player-one-life" 
+							type="number"
+							class="player-life" 
+							value="20"
+						/>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="plus" data-player="one">
+							<i class="material-icons">exposure_plus_1</i>
+						</button>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="minus" data-player="one">
+							<i class="material-icons">exposure_neg_1</i>
+						</button>
 					</div>
 				</div>
-				<a class="green waves-effect waves-light btn"><i class="material-icons left">attach_money</i>pagar</a>
+			</form>
+			<form class="col s6 form-player-two">
+				<h5 class="col s12">Player 2</h5>
+				<div class="row">
+					<div class="input-field col s12">
+						<input 
+							id="player-two-life" 
+							type="number"
+							class="player-life" 
+							value="20"
+						/>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="plus" data-player="two">
+							<i class="material-icons">exposure_plus_1</i>
+						</button>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="minus" data-player="two">
+							<i class="material-icons">exposure_neg_1</i>
+						</button>
+					</div>
+				</div>
+			</form>
+			<form class="col s6 form-player-three">
+				<h5 class="col s12">Player 3</h5>
+				<div class="row">
+					<div class="input-field col s12">
+						<input 
+							id="player-three-life" 
+							type="number"
+							class="player-life" 
+							value="20"
+						/>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="plus" data-player="three">
+							<i class="material-icons">exposure_plus_1</i>
+						</button>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="minus" data-player="three">
+							<i class="material-icons">exposure_neg_1</i>
+						</button>
+					</div>
+				</div>
+			</form>
+			<form class="col s6 form-player-four">
+				<h5 class="col s12">Player 4</h5>
+				<div class="row">
+					<div class="input-field col s12">
+						<input 
+							id="player-four-life" 
+							type="number"
+							class="player-life" 
+							value="20"
+						/>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="plus" data-player="four">
+							<i class="material-icons">exposure_plus_1</i>
+						</button>
+					</div>
+					<div class="button-column col s6">
+						<button type="button" class="update-life btn-floating btn-large waves-effect waves-light white" data-operation="minus" data-player="four">
+							<i class="material-icons">exposure_neg_1</i>
+						</button>
+					</div>
 			</form>
 		</div>
 
-		<div class="row">
-			<h5 class="col s12">Noticias</h5>
-			<div class="col s12">
-				<div class="card">
-					<div class="card-image">
-						<img src="https://www.itapeshopping.com.br/franquias/2/380835/editor-html/4771999.png">
-					</div>
-					<div class="card-content">
-						<p>Comprometidos com as recomendações determinadas pelas autoridades públicas, o Itapê
-							Shopping
-							estará aberto para abastecer a população em regime especial por tempo indeterminado.</p>
-						<p>
-							Estamos atentos para seguir com quaisquer novas orientações que surjam. Reforçamos ainda
-							que, além das nossas práticas habituais de higiene, aumentamos a frequência e
-							intensidade de
-							limpeza, concentrando maior atenção em áreas de alto toque.
-						</p>
-					</div>
-					<div class="card-action">
-						<a href="https://www.itapeshopping.com.br/Funcionamento-Itape-Shopping">Saiba mais</a>
-					</div>
+		<footer>
+			<div class="row">
+				<div class="col s12">
+					<h5>Instalar a aplicação</h5>
+					<button class="waves-effect waves-light white green" id="btn-instalar" hidden>
+						<i class="material-icons right">home</i>Instalar
+					</button>
 				</div>
 			</div>
-		</div>
+		</footer>
+	</main>
 
-		<div class="row">
-			<div class="col s12">
-				<h5>Instalar a aplicação</h5>
-				<button class="waves-effect waves-light btn green" id="btn-instalar" hidden><i class="material-icons right">home</i>Instalar</button>
-			</div>
-		</div>
-
-
-
-		<!-- Modal Structure -->
-		<div id="modal1" class="modal">
-			<div class="modal-content">
-				<h4>Aponte para o código de barras</h4>
-				<div id="barcode-scanner"></div>
-			</div>
-		</div>
-
-		<!--JavaScript at end of body for optimized loading-->
-		<script src="js/materialize.min.js"></script>
-		<script src="js/quagga.min.js"></script>
-		<script src="js/app.js"></script>
-		<script src="js/instalar.js"></script>
+	<!--JavaScript at end of body for optimized loading-->
+	<script src="js/materialize.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/instalar.js"></script>
 
 </body>
 

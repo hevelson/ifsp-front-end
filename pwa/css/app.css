@@ -1,11 +1,33 @@
-#app {
-  padding-top: 2em;
+
+.form-player-one {
+  background-color: #ffb2ac;
+}
+.form-player-two {
+  background-color: #7dbb7f;
+}
+.form-player-three {
+  background-color: #95cefb;
+}
+.form-player-four {
+  background-color: #b175bb;
 }
 
-#barcode-scanner video {
-  max-width: 100%;
+form .input-field  .player-life {
+  color: #ffffff;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 3rem;
+}
+form .button-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#barcode-scanner canvas {
-  display: none;
+.update-life {
+  color: #000;
+}
+.update-life i {
+  color: #000;
+  font-size: 2.7rem;
 }
